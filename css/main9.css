@@ -1,0 +1,21 @@
+body{
+    background-color: black;
+}
+.box{
+    width: 1500px;
+    height: 700px;
+    background: linear-gradient(45deg, purple, blue, #0f0, #0f0,yellow); 
+    margin: 1000px;
+    margin-left: 1400px;
+    z-index: -1;
+    box-shadow: 0 0 20px 10px blue, 0 0 20px 10px #0f0;
+}
+.box-1{
+    background-color: black;
+    width: 1400px;
+    height: 650px;
+    margin: 1000px;
+    margin-left: 1450px;
+    margin-top: -1670px;
+    z-index: 1;
+}
