@@ -1,0 +1,25 @@
+.box{
+    width: 1200px;
+    height: 300px;
+    margin: 600px;
+    background: linear-gradient(0deg, limegreen, rgba(43, 163, 43,0.8), rgba(0, 0, 255, 1), rgba(255, 0, 0, 10));
+}
+.p{
+    color: white;
+    text-align: center;
+    padding: 10% 0;
+    font-size: 40px;
+}
+.box-1{
+    width: 1200px;
+    height: 300px;
+    margin: 600px;
+    margin-top: -500px;
+    background: linear-gradient(90deg,darkorange, yellow, green, blue, purple);
+}
+.p1{
+    color: white;
+    text-align: center;
+    padding: 10% 0;
+    font-size: 40px;
+}

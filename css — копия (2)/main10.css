@@ -1,0 +1,328 @@
+body{
+    background-color: yellow;
+}
+.wrap{
+    width: 1200px;
+    margin: 50px auto;
+}
+.box{
+    background-color: whitesmoke;
+    width: 600px;
+    height: 700px;
+    border-radius: 45%;
+    position: relative;
+    z-index: -2;
+    animation-name: bosh;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+.box1{
+    background-color: white;
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    margin-top: -530px;
+    margin-left: 100px;
+}
+.box2{
+    background-color: white;
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    margin-top: -130px;
+    margin-left: 400px;
+}
+.box3{
+    background-color: black;
+    width: 70px;
+    height: 80px;
+    border-radius: 50%;
+    margin-left: 125px;
+    margin-top: -80px;
+    animation-name: koz;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+.box4{
+    background-color: black;
+    width: 70px;
+    height: 80px;
+    border-radius: 50%;
+    margin-left: 425px;
+    margin-top: -80px;
+    animation-name: koz;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+.box5{
+    background-color: white;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    margin-left: 135px;
+    margin-top: -55px;
+    animation-name: koz;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+.box6{
+    background-color: white;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    margin-left: 130px;
+    margin-top: -px;
+}
+.box7{
+    background-color: white;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    margin-left: 440px;
+    margin-top: -20px;
+    animation-name: koz;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+.box8{
+    background-color: white;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    margin-left: 435px;
+    margin-top: -px; 
+}
+.box9{
+    width: 100px;
+    height: 200px;
+    background-color: black;
+    border-radius: 40%;
+    margin-top: -260px;
+    margin-left: 20px;
+    transform: rotate(35deg);
+    position: absolute;
+    z-index: -3;
+    animation-name: quloq;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+.box10{
+    width: 100px;
+    height: 200px;
+    background-color: black;
+    border-radius: 40%;
+    margin-top: -250px;
+    margin-left: 480px;
+    transform: rotate(-35deg);
+    position: absolute;
+    z-index: -3;
+}
+.box11{
+    width: 220px;
+    height: 150px;
+    border: 2px solid gray;
+    background-color: rgb(0, 0, 0);
+    border-top-right-radius: 40%;
+    border-top-left-radius: 40%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    margin-left: 200px;
+    margin-top: -30px;
+    box-shadow: 0 0 20px rgba( 188, 188, 188, 0.3);
+}
+.box12{
+    width: 120px;
+    height: 350px;
+    background-color: red;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    margin-left: 250px;
+    margin-top: 60px;
+    position: absolute;
+    z-index: -2;
+    animation-name: talgat;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+.box13{
+    width: 400px;
+    height: 450px;
+    border: 2px solid gray;
+    background-color: black;
+    border-top-left-radius: 60%;
+    border-top-right-radius: 80%;
+    border-bottom-left-radius: 90%;
+    border-bottom-right-radius: 80%;
+    margin-top: -100px;
+    margin-left: -60px;
+    position: absolute;
+    box-shadow: 0 0 20px rgba( 188, 188, 188, 0.3);
+    z-index: -2;
+    animation-name: lab;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+.box14{
+    width: 400px;
+    height: 450px;
+    background-color: black;
+    border-top-left-radius: 80%;
+    border-top-right-radius: 60%;
+    border-bottom-left-radius: 80%;
+    border-bottom-right-radius: 90%;
+    margin-left: 260px;
+    margin-top: -100px;
+    position: absolute;
+    z-index: -1;
+    animation-name: lab;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+.qorin{
+    width: 600px;
+    height: 750px;
+    background-color: white;
+    border-top-left-radius: 60%;
+    border-top-right-radius: 60%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    position: absolute;
+    z-index: -3;
+}
+.qorin2{
+    width: 200px;
+    height: 250px;
+    background-color: whitesmoke;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 60%;
+    border-bottom-right-radius: 60%;
+    margin-top: 400px;
+    margin-left: 200px;
+    position: absolute;
+    z-index: -3;
+}
+.oyoq1{
+    width: 150px;
+    height: 250px;
+    background-color: white;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 40%;
+    border-bottom-right-radius: 40%;
+    margin-left: 20px;
+    margin-top: 600px;
+    transform: rotate(70deg);
+}
+.oyoq2{
+    width: 150px;
+    height: 250px;
+    background-color: white;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 40%;
+    border-bottom-right-radius: 40%;
+    transform: rotate(-70deg);
+    margin-left: 430px;
+    margin-top: -250px;
+}
+.dum{
+    width: 250px;
+    height: 50px;
+    background-color: white;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-top-left-radius: 20%;
+    border-top-right-radius: 20%;
+    margin-left: 450px;
+    margin-top: -230px;
+    animation-name: dum;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+@keyframes talgat{
+    0%{
+        transform: translate(0, 0);
+    }
+    25%{
+        transform: translate(10px, 0px);
+    }
+    50%{
+        transform: translate(10px, 0);
+    }
+    75%{
+        transform: translate(15px, 0);
+    }
+    100%{
+        transform: translate(0, 0);
+    }
+}
+@keyframes bosh{
+    0%{
+        transform: translate(0, 0);
+    }
+    25%{
+        transform: translate(0, -5px);
+    }
+    50%{
+        transform: translate(0, 5px);
+    }
+    75%{
+        transform: translate(5px, 0);
+    }
+    100%{
+        transform: translate(0, 0);
+    }
+}
+@keyframes lab{
+    0%{
+        transform: translate(0, 0);
+    }
+    25%{
+        transform: translate(0px, 10px);
+    }
+    50%{
+        transform: translate(0, 10px);
+    }
+    75%{
+        transform: translate(0px, 10px);
+    }
+    100%{
+        transform: translate(0, 0);
+    }
+}
+@keyframes koz{
+    0%{
+        transform: translate(0, 0px);
+    }
+    25%{
+        transform: translate(12px, 0px);
+    }
+    50%{
+        transform: translate(12px, 0px);
+    }
+    75%{
+        transform: translate(12px, 0);
+    }
+    100%{
+        transform: translate(0, 0px);
+    }
+}
+@keyframes dum{
+    0%{
+        transform: translate(0, 0);
+    }
+    25%{
+        transform: translate(0, 20px);
+    }
+}

@@ -1,0 +1,122 @@
+body{
+    background-color: black;
+}
+.cards{
+    width: 1200px;
+    margin: 200px auto;
+    position: relative;
+}
+.card{
+    width: 250px;
+    height: 700px;
+    background-color: white;
+    border: 1px solid black;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    transform: rotate(-30deg);
+    position: absolute;
+    z-index: -1;
+}
+.card img{
+    width: 200px;
+    height: 150px;
+    background-color: gray;
+}
+.card-1 img{
+    width: 200px;
+    height: 150px;
+    margin-left: 20px;
+    background-color: gray;
+}
+.card-2 img{
+    width: 200px;
+    height: 150px;
+    background-color: gray;
+}
+.card-3 img{
+    width: 200px;
+    height: 150px;
+    background-color: gray;
+}
+.card-4 img{
+    width: 200px;
+    height: 150px;
+    background-color: gray;
+}
+.card p{
+    font-size: 36px;
+    line-height: 1.6p;
+}
+.card-1 p{
+    font-size: 36px;
+    line-height: 1.6p;
+}
+.card-2 p{
+    font-size: 36px;
+    line-height: 1.6p;
+}
+.card-3 p{
+    font-size: 36px;
+    line-height: 1.6p;
+}
+.card-4 p{
+    font-size: 36px;
+    line-height: 1.6p;
+}
+.card-1{
+    width: 250px;
+    height: 700px;
+    background-color: white;
+    border: 1px solid black;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    margin-left: 160px;
+    margin-top: -80px;
+    transform: rotate(-15deg);
+    position: absolute;
+    z-index: -1;
+}
+.card-2{
+    width: 250px;
+    height: 700px;
+    background-color: white;
+    border: 1px solid black;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    margin-left: 350px;
+    margin-top: -120px;
+    transform: rotate(0deg);
+    position: absolute;
+    z-index: 1;
+}
+.card-3{
+    width: 250px;
+    height: 700px;
+    background-color: white;
+    border: 1px solid black;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    margin-left: 540px;
+    margin-top: -80px;
+    transform: rotate(15deg);
+    position: absolute;
+    z-index: -1;
+}
+.card-4{
+    width: 250px;
+    height: 700px;
+    background-color: white;
+    border: 1px solid black;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    margin-left: 680px;
+    margin-top: -00px;
+    transform: rotate(30deg);
+    position: absolute;
+    z-index: -2;
+}

@@ -1,0 +1,16 @@
+.wrap{
+    width: 1200px;
+    height: 1200px;
+    margin: 600px;
+    background: radial-gradient(green,green, white, blue,blue);
+}
+.h{
+    font-size: 70px;
+    text-align: center;
+    padding: 45% 0;
+}
+.p{
+    font-size: 30px;
+    text-align: center;
+    margin-top: -550px;
+}
